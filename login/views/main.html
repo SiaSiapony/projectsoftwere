@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <Link to="stylesheet" href="style.css"></Link>
-    <title>Main</title>
+    <title>Main_Html</title>
     <style media="screen">
         html {
-            background: url(img/b1.png) no-repeat center fixed;
+            background: url(img/bg3.png) no-repeat center fixed;
             background-size: cover;
         }
         
@@ -24,76 +24,118 @@
         }
         
         .container .button-student {
-            position: absolute;
-            top: 10%;
-            left: 12%;
-            border: solid 2px;
+            position: relative;
+            right: -47%;
+            bottom: -500px;
+            border: none;
             border-radius: 12px;
-            width: 10%;
+            width: 12%;
+            height: 67px;
             margin: auto;
             margin-bottom: 100px;
-            padding: 10px;
+            padding: 15px 25px;
             text-align: center;
-            box-shadow: 2px 2px rgba(165, 105, 189, 100);
+            font-size: 20px;
+            cursor: pointer;
+            outline: none;
+            font-family: 'Arial';
+            text-transform: uppercase;
+            color: #4a235a;
+            box-shadow: 0 9px #999;
             background-color: #d7bde2;
         }
         
         .button-student:hover {
-            box-shadow: 6px 6px rgba(165, 105, 189, 50);
+            box-shadow: #d7bde2;
+        }
+        
+        .button-student:active {
+            background-color: #b787cc;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
         }
         
         .container .button-teacher {
-            border: solid 2px;
             position: absolute;
-            top: 10%;
-            left: 45%;
+            right: 23%;
+            bottom: -500px;
+            border: none;
             border-radius: 12px;
-            width: 10%;
+            width: 12%;
+            height: 40%;
             margin: auto;
             margin-bottom: 100px;
-            padding: 10px;
+            padding: 15px 25px;
             text-align: center;
-            box-shadow: 2px 2px rgba(165, 105, 189, 100);
+            font-size: 20px;
+            cursor: pointer;
+            outline: none;
+            font-family: 'Arial';
+            text-transform: uppercase;
+            color: #4a235a;
+            box-shadow: 0 9px #999;
             background-color: #d7bde2;
         }
         
         .button-teacher:hover {
-            box-shadow: 6px 6px rgba(165, 105, 189, 50);
+            background-color: #d7bde2;
+        }
+        
+        .button-teacher:active {
+            background-color: #b787cc;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
         }
         
         .container .button-staff {
-            border: solid 2px;
             position: absolute;
-            top: 10%;
-            left: 78%;
+            right: -25%;
+            bottom: -400px;
+            border: none;
             border-radius: 12px;
-            width: 10%;
+            width: 12%;
+            height: 40%;
             margin: auto;
             margin-right: 500px;
-            padding: 10px;
+            padding: 15px 25px;
             text-align: center;
-            box-shadow: 2px 2px rgba(165, 105, 189, 100);
+            font-size: 20px;
+            font-family: 'Arial';
+            cursor: pointer;
+            outline: none;
+            text-transform: uppercase;
+            color: #4a235a;
+            box-shadow: 0 9px #999;
             background-color: #d7bde2;
         }
         
         .button-staff:hover {
-            box-shadow: 6px 6px rgba(165, 105, 189, 50);
+            background-color: #d7bde2;
+        }
+        
+        .button-staff:active {
+            background-color: #b787cc;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
         }
     </style>
 </head>
 
 <body>
-    <h1 align="center">ระบบจัดการเรียนการสอน ภาควิชาวิทยาการคอมพิวเตอร์</h1>
+    <!--<h1 align="center">ระบบจัดการเรียนการสอน ภาควิชาวิทยาการคอมพิวเตอร์</h1>
     <img src='img/1.png' width="200px " height="200px " vspace="80 " hspace="120 " alt=" " srcset=" ">
     <img src='img/2.jpg' width="200px " height="200px " vspace="80 " hspace="120 " alt=" " srcset=" ">
-    <img src='img/3.jpg' width="200px " height="200px " vspace="80 " hspace="120 " alt=" " srcset=" ">
-
+    <img src='img/3.jpg' width="200px " height="200px " vspace="80 " hspace="120 " alt=" " srcset=" ">-->
 
     <div class='container'>
-        <button class='button-student'>Student</button>
-        <button class='button-teacher'>Teacher</button>
-        <button class='button-staff'>Staff</button>
+        <a href="file:///D:/ProjectSE/projectsoftwere/login/views/login.html">
+            <button class='button-student'><B>Student</B></button>
+            <button class='button-teacher'><B>Teacher</B></button>
+            <button class='button-staff'><B>Staff</B></button>
+
+        </a>
     </div>
+
 
 
 
